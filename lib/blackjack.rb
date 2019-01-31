@@ -38,8 +38,11 @@ def hit?(card_total)
     deal_card
     new_card_total = (card_total + deal_card)
   end
-  if input = "s"
+  elsif input = "s"
     new_card_total = card_total
+  end
+  else
+    invalid_command
   end
   return new_card_total
 end
