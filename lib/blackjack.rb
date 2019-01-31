@@ -41,9 +41,6 @@ def hit?(current_card_total)
   if input = "s"
     new_card_total = current_card_total
   end
-  else 
-  invalid_command
-  end
   return new_card_total
 end
 
