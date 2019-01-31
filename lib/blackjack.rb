@@ -60,6 +60,6 @@ def runner
     until total > 21
       hit?
     end
-  puts end_game(total)
+  end_game(total)
 end
     
