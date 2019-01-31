@@ -41,7 +41,7 @@ def hit?(current_card_total)
     return current_card_total
   else 
     invalid_command
-    hit?(current_card_total)
+    prompt_user
   end
 end
 
@@ -54,6 +54,8 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hit?
 end
     
