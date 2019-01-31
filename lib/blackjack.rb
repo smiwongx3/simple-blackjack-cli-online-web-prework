@@ -26,7 +26,6 @@ end
 def initial_round
   deal_card
   deal_card
-  print display_card_total
   return deal_card + deal_card
 end
 
