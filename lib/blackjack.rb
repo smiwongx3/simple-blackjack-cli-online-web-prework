@@ -60,5 +60,5 @@ def runner
     until total > 21
       hit?
     end
-    print end_game(total)
+  end_game(total)
 end   
