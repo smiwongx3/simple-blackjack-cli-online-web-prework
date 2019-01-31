@@ -31,15 +31,15 @@ def initial_round
   return card_total
 end
 
-def hit?(card_total)
+def hit?(current_card_total)
   prompt_user
   get_user_input
   if input = "h"
     deal_card
-    new_card_total = (card_total + deal_card)
+    new_card_total = (current_card_total + deal_card)
   end
   if input = "s"
-    new_card_total = card_total
+    new_card_total = current_card_total
   end
   return new_card_total
 end
