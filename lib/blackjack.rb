@@ -58,7 +58,7 @@ def runner
   initial_round
   total = hit?
   until total > 21
-    hit?  
+    hit?
     end_game
   end
 end
